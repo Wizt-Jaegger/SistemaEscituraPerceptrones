@@ -35,7 +35,7 @@ def cargar_imagenes_y_etiquetas(ruta,rango1,rango2):
 
 # Cargamos las imágenes y etiquetas de clase
 ruta1 = './Recursos/Train/'
-imagenesTrain, etiquetasTrain = cargar_imagenes_y_etiquetas(ruta1, 41,100)
+imagenesTrain, etiquetasTrain = cargar_imagenes_y_etiquetas(ruta1, 41,130)
 ruta2 = './Recursos/Test/'
 imagenesTest, etiquetasTest = cargar_imagenes_y_etiquetas(ruta2, 1,40)
 
